@@ -10,6 +10,21 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Apkit\\Easyfunc\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Apkit\\Easyfunc\\EasyfuncServiceProvider"
+            ],
+            "aliases": {
+                "Easyfunc": "Apkit\\Easyfunc\\Easyfunc"
+            }
+        }
+    }
 
 }
