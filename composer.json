@@ -1,0 +1,15 @@
+{
+    "name": "apkit/easyfunc",
+    "description": "Function Collection for php Laravel",
+    "homepage": "https://github.com/arispujud/easyfunc",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "arispujud",
+            "email": "ariz.pk@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+
+}
